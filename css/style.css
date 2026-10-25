@@ -1,1 +1,51 @@
 /* Стили сайта Forged in Light */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2 { font-family: var(--font-heading); }
+h1 { font-size: 32px; line-height: 40px; font-weight: 700; }
+
+:focus-visible { outline: 2px solid var(--text-dark); outline-offset: 2px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--line-color);
+}
+.logo {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+nav ul { display: flex; gap: var(--space-3); list-style: none; margin: 0; padding: 0; }
+nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--text-dark);
+  text-decoration: none;
+}
+nav a:hover { color: var(--accent-gold-dark); }
+
+main { padding: var(--space-6) var(--space-3); }
+
+footer {
+  padding: var(--space-4) var(--space-3);
+  border-top: 1px solid var(--line-color);
+  color: var(--text-muted);
+  font-size: 14px;
+}

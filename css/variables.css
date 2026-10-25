@@ -1,0 +1,12 @@
+:root {
+  --bg-main: #FAFAFA;        --bg-surface: #FFFFFF;
+  --text-dark: #1A1A1A;      --text-muted: #6B6B6B;
+  --accent-gold: #C5A059;    --accent-gold-dark: #7A5C1E;
+  --line-color: #E5E5E5;
+  --alert-red: #D9534F;      --alert-red-dark: #B3261E;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --space-1: 8px;  --space-2: 16px; --space-3: 24px;
+  --space-4: 32px; --space-6: 48px; --space-8: 64px;
+  --radius: 4px;
+}
