@@ -106,3 +106,10 @@ time { font-size: 14px; line-height: 20px; color: var(--text-muted); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ===== Карточка товара ===== */
+.card { padding: 0; overflow: hidden; }
+.card img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--line-color); }
+.card-body { padding: var(--space-2); }
+.card-meta { font-size: 14px; line-height: 20px; color: var(--text-muted); margin-bottom: var(--space-1); }
+.card-price { font-weight: 600; margin: 0; }
